@@ -1,0 +1,35 @@
+{
+  "name": "karma-coveragedrop-reporter",
+  "description": "A Karma plugin. Fail tests if the coverage falls below prior runs.",
+  "version": "1.0.2",
+  "author": "Daniel St-Germain",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dstgermain/karma-coveragedrop-reporter.git"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "istanbul": "~0.3.2",
+    "bluebird": "^3.4.0",
+    "cli-color": "^1.1.0"
+  },
+  "peerDependencies": {
+    "karma": ">=0.9"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-reporter",
+    "coverage",
+    "istanbul"
+  ],
+  "scripts": {
+    "eslint": "eslint ./ -c .eslintrc.js"
+  },
+  "devDependencies": {
+    "eslint": "^2.11.1",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-config-ctct": "^1.1.0",
+    "eslint-plugin-import": "^1.8.1"
+  },
+  "license": "ISC"
+}
